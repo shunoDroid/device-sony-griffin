@@ -13,11 +13,16 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_j8110.mk \
-                     $(LOCAL_DIR)/aosp_j9110.mk
+                     $(LOCAL_DIR)/aosp_j9110.mk \
+                     $(LOCAL_DIR)/aicp_griffin.mk \
+                     $(LOCAL_DIR)/aicp_griffin_dsds.mk
 
 COMMON_LUNCH_CHOICES += \
     aosp_j8110-eng \
     aosp_j8110-userdebug \
     aosp_j9110-eng \
-    aosp_j9110-userdebug
-
+    aosp_j9110-userdebug \
+    aicp_griffin-eng \
+    aicp_griffin-userdebug \
+    aicp_griffin_dsds-eng \
+    aicp_griffin_dsds-userdebug
